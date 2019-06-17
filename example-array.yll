@@ -1,0 +1,20 @@
+goto chipSevenIndex+2
+chipSevenOutput = chipSevenPosition0 chipSevenPosition0= chipSevenInput chipSevenIndex=-1 goto chipSevenIndex
+chipSevenOutput = chipSevenPosition1 chipSevenPosition1= chipSevenInput chipSevenIndex=-1 goto chipSevenIndex
+chipSevenOutput = chipSevenPosition2 chipSevenPosition2= chipSevenInput chipSevenIndex=-1 goto chipSevenIndex
+chipSevenOutput = chipSevenPosition3 chipSevenPosition3= chipSevenInput chipSevenIndex=-1 goto chipSevenIndex
+chipSevenOutput = chipSevenPosition4 chipSevenPosition4= chipSevenInput chipSevenIndex=-1 goto chipSevenIndex
+chipSevenOutput = chipSevenPosition5 chipSevenPosition5= chipSevenInput chipSevenIndex=-1 goto chipSevenIndex
+chipSevenOutput = chipSevenPosition6 chipSevenPosition6= chipSevenInput chipSevenIndex=-1 goto chipSevenIndex
+chipSevenOutput = chipSevenPosition7 chipSevenPosition7= chipSevenInput chipSevenIndex=-1 goto chipSevenIndex
+chipSevenOutput = chipSevenPosition8 chipSevenPosition8= chipSevenInput chipSevenIndex=-1 goto chipSevenIndex
+chipSevenOutput = chipSevenPosition9 chipSevenPosition9= chipSevenInput chipSevenIndex=-1 goto chipSevenIndex
+chipSevenOutput = chipSevenPosition10 chipSevenPosition10= chipSevenInput chipSevenIndex=-1 goto chipSevenIndex
+chipSevenOutput = chipSevenPosition11 chipSevenPosition11= chipSevenInput chipSevenIndex=-1 goto chipSevenIndex
+chipSevenOutput = chipSevenPosition12 chipSevenPosition12= chipSevenInput chipSevenIndex=-1 goto chipSevenIndex
+chipSevenOutput = chipSevenPosition13 chipSevenPosition13= chipSevenInput chipSevenIndex=-1 goto chipSevenIndex
+chipSevenOutput = chipSevenPosition14 chipSevenPosition14= chipSevenInput chipSevenIndex=-1 goto chipSevenIndex
+chipSevenOutput = chipSevenPosition15 chipSevenPosition15= chipSevenInput chipSevenIndex=-1 goto chipSevenIndex
+chipSevenOutput = chipSevenPosition16 chipSevenPosition16= chipSevenInput chipSevenIndex=-1 goto chipSevenIndex
+chipSevenOutput = chipSevenPosition17 chipSevenPosition17= chipSevenInput chipSevenIndex=-1 goto chipSevenIndex
+chipSevenOutput = chipSevenPosition18 chipSevenPosition18= chipSevenInput chipSevenIndex=-1 goto chipSevenIndex
