@@ -1,3 +1,15 @@
+-- Data fields:
+--     INPUT: external field from which we grab the input 
+--         string we want to convert to a number. Cleared when done running.
+--     OUTPUT: external field into which we'll write the resulting number.
+-- Variables:
+--     s: (string) /string/ used to store the complete string that we've processed to this point.
+--     n: (number) /number/ used to store the output while we construct it.
+--     m: (number) /multiplier/ used to move through the decimal positions in the output number.
+--     h: (string) /head/ of s, everything but the last character.
+--     t: (string) /tail/ of s, the last character.
+--  d: (number) /digit/ we're currently dealing with. -1 means "not a digit".
+--
 -- Initialize variables and read input, empty ("") input means we haven't
 -- been given anything so we loop until we receive something
 1| s=:INPUT if s=="" then goto 1 end m=1 n=0 h=s
