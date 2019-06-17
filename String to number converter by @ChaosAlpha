@@ -1,0 +1,22 @@
+-- Initialize variables and read input, empty ("") input means we haven't
+-- been given anything so we loop until we receive something
+1| s=:INPUT if s=="" then goto 1 end m=1 n=0 h=s
+-- If the /h/ead is "", there's nothing left to process, we're done.
+-- Otherwise, we get the /h/ead and /t/ail of /s/.
+2| if h=="" then goto 6 else s=h-- t=s-h d=-1 end
+-- Booleans are numbers in YOLOL (True:1, False:0) so we can use that
+-- to simplify turning a digit character into the equivalent number.
+-- Here everything is increased by 1, to account for the "no digit" case.
+-- If none of the conditions are True(1) here, d will be 0.
+3| d=(t=="0")+(t=="1")*2+(t=="2")*3+(t=="3")*4+(t=="4")*5+(t=="5")*6
+-- We subtract 1 at the end to get the correct digit.
+-- If none of the conditions are true here, d will be 0-1=-1.
+4| d+=(t=="6")*7+(t=="7")*8+(t=="8")*9+(t=="9")*10-1
+-- If we didn't see a digit, then we assume the number is done.
+-- Otherwise, we add that the /d/igit multiplied by the correct 
+-- position /m/ultiplier, then we multiply the latter by 10 to shift a rank up.
+-- Then we loop back to line 2 to repeat the cycle for the next character.
+5| if d==-1 then goto 6 end n+=d*m m*=10 goto 2
+-- Finally we set the output, reset the input so we don't re-run needlessly
+-- and finally reset the chip to line 1 to receive a new input.
+6| :OUTPUT=n :INPUT="" goto 1
