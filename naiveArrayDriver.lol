@@ -1,0 +1,20 @@
+odd=idx%2 goto idx/2+2
+if odd out=pos1 pos1=in else out=pos0 pos0=in end idx=-1 goto 1
+if odd out=pos3 pos3=in else out=pos2 pos2=in end idx=-1 goto 1
+if odd out=pos5 pos5=in else out=pos4 pos4=in end idx=-1 goto 1
+if odd out=pos7 pos7=in else out=pos6 pos6=in end idx=-1 goto 1
+if odd out=pos9 pos9=in else out=pos8 pos8=in end idx=-1 goto 1
+if odd out=pos11 pos11=in else out=pos10 pos10=in end idx=-1 goto 1
+if odd out=pos13 pos13=in else out=pos12 pos12=in end idx=-1 goto 1
+if odd out=pos15 pos15=in else out=pos14 pos14=in end idx=-1 goto 1
+if odd out=pos17 pos17=in else out=pos16 pos16=in end idx=-1 goto 1
+if odd out=pos19 pos19=in else out=pos18 pos18=in end idx=-1 goto 1
+if odd out=pos21 pos21=in else out=pos20 pos20=in end idx=-1 goto 1
+if odd out=pos23 pos23=in else out=pos22 pos22=in end idx=-1 goto 1
+if odd out=pos25 pos25=in else out=pos24 pos24=in end idx=-1 goto 1
+if odd out=pos27 pos27=in else out=pos26 pos26=in end idx=-1 goto 1
+if odd out=pos29 pos29=in else out=pos28 pos28=in end idx=-1 goto 1
+if odd out=pos31 pos31=in else out=pos30 pos30=in end idx=-1 goto 1
+if odd out=pos33 pos33=in else out=pos32 pos32=in end idx=-1 goto 1
+if odd out=pos35 pos35=in else out=pos34 pos34=in end idx=-1 goto 1
+if odd out=pos37 pos37=in else out=pos36 pos36=in end idx=-1 goto 1
